@@ -46,6 +46,7 @@ for ID in ID_P2P_T6: #The loops just converts the delta data (every change in N)
 print(np.mean(Rate_P2P_T6))
 
 plt.plot(range(last_ID), N_RLC_T6, range(last_ID_P2P), N_P2P_T6)
+plt.legend( ('RLC', 'P2P') )
 plt.show()
 
 plt.plot(range(last_ID), Rate_RLC_T6, range(last_ID_P2P), Rate_P2P_T6)
